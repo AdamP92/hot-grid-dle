@@ -25,3 +25,27 @@ body {
   display: block;
   width: 100%;
 }
+
+figcaption {
+  float: left;
+  position: relative;
+  max-width: 15em;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+figure, figcaption {
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: .5rem;
+  bottom: .5rem;
+}
